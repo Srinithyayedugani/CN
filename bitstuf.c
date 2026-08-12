@@ -15,7 +15,7 @@ int main() {
     for (int i = 0; i < n; i++) {
         stuffed_data[j] = data[i];
         j++;
-	 if (data[i] == 1) {
+	    if (data[i] == 1) {
             count++;
         } else {
             count = 0; // Reset counter if bit is 0
